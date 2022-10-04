@@ -15,8 +15,11 @@ public class WhileDo1
         }
         for (int k = 10; k >= 0; k = k-3) {
             System.out.println("k is equal to "+k);
+            if (k == 1) {
+                System.out.println("k can not be negative");
+            }
         }
-        }
+    }
     
     public static void main(String[] args)
         {
